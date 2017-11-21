@@ -14,6 +14,7 @@
 		04EC09641FC439B200B018A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EC09631FC439B200B018A5 /* Assets.xcassets */; };
 		04EC09671FC439B200B018A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EC09651FC439B200B018A5 /* LaunchScreen.storyboard */; };
 		04EC096A1FC439B200B018A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EC09691FC439B200B018A5 /* main.m */; };
+		04EC097F1FC4580000B018A5 /* RootNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EC097E1FC4580000B018A5 /* RootNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		04EC09661FC439B200B018A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04EC09681FC439B200B018A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04EC09691FC439B200B018A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EC097D1FC4580000B018A5 /* RootNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootNavigationViewController.h; sourceTree = "<group>"; };
+		04EC097E1FC4580000B018A5 /* RootNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,18 +63,92 @@
 		04EC09561FC439B200B018A5 /* FrameWorkSample */ = {
 			isa = PBXGroup;
 			children = (
-				04EC09571FC439B200B018A5 /* AppDelegate.h */,
-				04EC09581FC439B200B018A5 /* AppDelegate.m */,
+				04EC09791FC457A500B018A5 /* NavigationController */,
+				04EC09781FC4453A00B018A5 /* Models */,
+				04EC09771FC4450100B018A5 /* NetWork */,
+				04EC09761FC444F100B018A5 /* ThridParty */,
+				04EC09741FC4423500B018A5 /* Manager */,
+				04EC09731FC4422900B018A5 /* Base */,
+				04EC09721FC4402300B018A5 /* ViewController */,
+				04EC09711FC43C8E00B018A5 /* DataBase */,
+				04EC09701FC43C7600B018A5 /* Supporting Flies */,
 				04EC095A1FC439B200B018A5 /* ViewController.h */,
 				04EC095B1FC439B200B018A5 /* ViewController.m */,
 				04EC095D1FC439B200B018A5 /* Main.storyboard */,
-				04EC09631FC439B200B018A5 /* Assets.xcassets */,
-				04EC09651FC439B200B018A5 /* LaunchScreen.storyboard */,
-				04EC09681FC439B200B018A5 /* Info.plist */,
-				04EC09691FC439B200B018A5 /* main.m */,
-				04EC09601FC439B200B018A5 /* FrameWorkSample.xcdatamodeld */,
 			);
 			path = FrameWorkSample;
+			sourceTree = "<group>";
+		};
+		04EC09701FC43C7600B018A5 /* Supporting Flies */ = {
+			isa = PBXGroup;
+			children = (
+				04EC09571FC439B200B018A5 /* AppDelegate.h */,
+				04EC09581FC439B200B018A5 /* AppDelegate.m */,
+				04EC09631FC439B200B018A5 /* Assets.xcassets */,
+				04EC09651FC439B200B018A5 /* LaunchScreen.storyboard */,
+				04EC09691FC439B200B018A5 /* main.m */,
+				04EC09681FC439B200B018A5 /* Info.plist */,
+			);
+			path = "Supporting Flies";
+			sourceTree = "<group>";
+		};
+		04EC09711FC43C8E00B018A5 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				04EC09601FC439B200B018A5 /* FrameWorkSample.xcdatamodeld */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		04EC09721FC4402300B018A5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		04EC09731FC4422900B018A5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		04EC09741FC4423500B018A5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		04EC09761FC444F100B018A5 /* ThridParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThridParty;
+			sourceTree = "<group>";
+		};
+		04EC09771FC4450100B018A5 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		04EC09781FC4453A00B018A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04EC09791FC457A500B018A5 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				04EC097D1FC4580000B018A5 /* RootNavigationViewController.h */,
+				04EC097E1FC4580000B018A5 /* RootNavigationViewController.m */,
+			);
+			path = NavigationController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EC097F1FC4580000B018A5 /* RootNavigationViewController.m in Sources */,
 				04EC095C1FC439B200B018A5 /* ViewController.m in Sources */,
 				04EC09591FC439B200B018A5 /* AppDelegate.m in Sources */,
 				04EC096A1FC439B200B018A5 /* main.m in Sources */,
